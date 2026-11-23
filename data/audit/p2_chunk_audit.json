@@ -1,0 +1,610 @@
+{
+  "phase": "P2",
+  "status": "PASS",
+  "book": "কপালকুণ্ডলা",
+  "source_p1_status": "PASS",
+  "generated_at_utc": "2026-11-23T05:38:02.275819+00:00",
+  "bonus_note": "No retrieval hit-rate measured yet; compare strategies on fixed Q/A in P4/P5",
+  "strategies": {
+    "small_500_100": {
+      "chunk_size": 500,
+      "overlap": 100,
+      "chapters": 32,
+      "chunks": 391,
+      "shortest_chunk_chars": 119,
+      "longest_chunk_chars": 500,
+      "mean_chunk_chars": 480.63,
+      "coverage": "PASS",
+      "per_chapter": [
+        {
+          "chapter_id": "প্রথম খণ্ড/প্রথম পরিচ্ছেদ",
+          "chapter_order": 1,
+          "normalized_chars": 5271,
+          "chunk_count": 14,
+          "original_sha256": "b31c52fd929f6a34076b7eb4f5f33dee1986c8cf6270fa122cd453bdf34cdc4d",
+          "clean_sha256": "b31c52fd929f6a34076b7eb4f5f33dee1986c8cf6270fa122cd453bdf34cdc4d",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/দ্বিতীয় পরিচ্ছেদ",
+          "chapter_order": 2,
+          "normalized_chars": 4639,
+          "chunk_count": 12,
+          "original_sha256": "ea88be3764b80675f41c9534f7018cc2e0b32103370c8fbb45921b082c566fc2",
+          "clean_sha256": "ea88be3764b80675f41c9534f7018cc2e0b32103370c8fbb45921b082c566fc2",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/তৃতীয় পরিচ্ছেদ",
+          "chapter_order": 3,
+          "normalized_chars": 4279,
+          "chunk_count": 11,
+          "original_sha256": "25313a025ed7bcd7b2c44a607d9af6a826bca7781d8aa6f70b007a04a8db9b18",
+          "clean_sha256": "25313a025ed7bcd7b2c44a607d9af6a826bca7781d8aa6f70b007a04a8db9b18",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/চতুর্থ পরিচ্ছেদ",
+          "chapter_order": 4,
+          "normalized_chars": 3994,
+          "chunk_count": 10,
+          "original_sha256": "3b8b9cf715eae69ab02b053a4bcac5e36597517da893c08a8a01a8f78c57e4fc",
+          "clean_sha256": "3b8b9cf715eae69ab02b053a4bcac5e36597517da893c08a8a01a8f78c57e4fc",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/পঞ্চম পরিচ্ছেদ",
+          "chapter_order": 5,
+          "normalized_chars": 5690,
+          "chunk_count": 15,
+          "original_sha256": "3b544058c6ac49130c9eea019c978ff99786da191a286cfdcea079f3bf6262aa",
+          "clean_sha256": "3b544058c6ac49130c9eea019c978ff99786da191a286cfdcea079f3bf6262aa",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/ষষ্ঠ পরিচ্ছেদ",
+          "chapter_order": 6,
+          "normalized_chars": 7265,
+          "chunk_count": 19,
+          "original_sha256": "3d03f62eedfc0459a97b30b55aecc090b4281da84172186d440270ddcff6a24e",
+          "clean_sha256": "3d03f62eedfc0459a97b30b55aecc090b4281da84172186d440270ddcff6a24e",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/সপ্তম পরিচ্ছেদ",
+          "chapter_order": 7,
+          "normalized_chars": 1095,
+          "chunk_count": 3,
+          "original_sha256": "97c8858824cafc5292d5705f86af29d1dedeebf98bb9ac3bcf5361a00e2ac634",
+          "clean_sha256": "97c8858824cafc5292d5705f86af29d1dedeebf98bb9ac3bcf5361a00e2ac634",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/অষ্টম পরিচ্ছেদ",
+          "chapter_order": 8,
+          "normalized_chars": 10588,
+          "chunk_count": 27,
+          "original_sha256": "8c78093e777c987e0796b24ba87989ed8d7401f7336b5ea99e4cceb7536160d1",
+          "clean_sha256": "8c78093e777c987e0796b24ba87989ed8d7401f7336b5ea99e4cceb7536160d1",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/নবম পরিচ্ছেদ",
+          "chapter_order": 9,
+          "normalized_chars": 2815,
+          "chunk_count": 7,
+          "original_sha256": "b91b0513090827b1c024398f2560468fbb1e9347d559ddb656124c7eaef72ed7",
+          "clean_sha256": "b91b0513090827b1c024398f2560468fbb1e9347d559ddb656124c7eaef72ed7",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "দ্বিতীয় খণ্ড/প্রথম পরিচ্ছেদ",
+          "chapter_order": 10,
+          "normalized_chars": 4566,
+          "chunk_count": 12,
+          "original_sha256": "4c298a7f8627a4cc518630848a24b51b3ccaf474e6a9e5ed65fc9db780bb018e",
+          "clean_sha256": "4c298a7f8627a4cc518630848a24b51b3ccaf474e6a9e5ed65fc9db780bb018e",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "দ্বিতীয় খণ্ড/দ্বিতীয় পরিচ্ছেদ",
+          "chapter_order": 11,
+          "normalized_chars": 5007,
+          "chunk_count": 13,
+          "original_sha256": "3f388e053bc7b8c779fbfd1e5e51632cc172e3e277d699fd214ea1aae5604070",
+          "clean_sha256": "3f388e053bc7b8c779fbfd1e5e51632cc172e3e277d699fd214ea1aae5604070",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "দ্বিতীয় খণ্ড/তৃতীয় পরিচ্ছেদ",
+          "chapter_order": 12,
+          "normalized_chars": 3904,
+          "chunk_count": 10,
+          "original_sha256": "b37186b477e241c22a5427559176cb370b4ed31eec55eb30459931d953c54cc4",
+          "clean_sha256": "b37186b477e241c22a5427559176cb370b4ed31eec55eb30459931d953c54cc4",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "দ্বিতীয় খণ্ড/চতুর্থ পরিচ্ছেদ",
+          "chapter_order": 13,
+          "normalized_chars": 1413,
+          "chunk_count": 4,
+          "original_sha256": "8bb980fe35cc0fbe29ffb698e7eb64c57a98f30f33158b2f922cc1f5f0e88acc",
+          "clean_sha256": "8bb980fe35cc0fbe29ffb698e7eb64c57a98f30f33158b2f922cc1f5f0e88acc",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "দ্বিতীয় খণ্ড/পঞ্চম পরিচ্ছেদ",
+          "chapter_order": 14,
+          "normalized_chars": 3366,
+          "chunk_count": 9,
+          "original_sha256": "e160556f8a815c3de27f5851052e7412564665822266a037ca331583ddda5867",
+          "clean_sha256": "e160556f8a815c3de27f5851052e7412564665822266a037ca331583ddda5867",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "দ্বিতীয় খণ্ড/ষষ্ঠ পরিচ্ছেদ",
+          "chapter_order": 15,
+          "normalized_chars": 6290,
+          "chunk_count": 16,
+          "original_sha256": "c439d7712e7e076ce8fce53ed573d98ce20da48327fc4e536815393107b7f3cd",
+          "clean_sha256": "c439d7712e7e076ce8fce53ed573d98ce20da48327fc4e536815393107b7f3cd",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "তৃতীয় খণ্ড/প্রথম পরিচ্ছেদ",
+          "chapter_order": 16,
+          "normalized_chars": 7433,
+          "chunk_count": 19,
+          "original_sha256": "bfcb3df1b52aea8f619fa8a892ab244a107d35155d171d6cbb2b91642bb52986",
+          "clean_sha256": "bfcb3df1b52aea8f619fa8a892ab244a107d35155d171d6cbb2b91642bb52986",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "তৃতীয় খণ্ড/দ্বিতীয় পরিচ্ছেদ",
+          "chapter_order": 17,
+          "normalized_chars": 3644,
+          "chunk_count": 9,
+          "original_sha256": "6bf7a97bad38851872447adfd3d0aa3fd81fe3b08b973043f15dba5f7621ae03",
+          "clean_sha256": "6bf7a97bad38851872447adfd3d0aa3fd81fe3b08b973043f15dba5f7621ae03",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "তৃতীয় খণ্ড/তৃতীয় পরিচ্ছেদ",
+          "chapter_order": 18,
+          "normalized_chars": 6965,
+          "chunk_count": 18,
+          "original_sha256": "7858ea2bd8a6e73a8bcd786883dc88efde738d87dcb49451345ea002199788a6",
+          "clean_sha256": "7858ea2bd8a6e73a8bcd786883dc88efde738d87dcb49451345ea002199788a6",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "তৃতীয় খণ্ড/চতুর্থ পরিচ্ছেদ",
+          "chapter_order": 19,
+          "normalized_chars": 3075,
+          "chunk_count": 8,
+          "original_sha256": "d71f86ef76c2c2bd004cdf824b46c75a5d40cc77ffcf4a1f1333ce374507b470",
+          "clean_sha256": "d71f86ef76c2c2bd004cdf824b46c75a5d40cc77ffcf4a1f1333ce374507b470",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "তৃতীয় খণ্ড/পঞ্চম পরিচ্ছেদ",
+          "chapter_order": 20,
+          "normalized_chars": 4465,
+          "chunk_count": 12,
+          "original_sha256": "eeee668b98f57716e25d86ce884c4f4f6215d751ca4ef308350acf57b917b888",
+          "clean_sha256": "eeee668b98f57716e25d86ce884c4f4f6215d751ca4ef308350acf57b917b888",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "তৃতীয় খণ্ড/ষষ্ঠ পরিচ্ছেদ",
+          "chapter_order": 21,
+          "normalized_chars": 5838,
+          "chunk_count": 15,
+          "original_sha256": "bfb9325d577ccd3021884d8639a73cc1a9b7924b4059bee810259e56ad0842ab",
+          "clean_sha256": "bfb9325d577ccd3021884d8639a73cc1a9b7924b4059bee810259e56ad0842ab",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "তৃতীয় খণ্ড/সপ্তম পরিচ্ছেদ",
+          "chapter_order": 22,
+          "normalized_chars": 2083,
+          "chunk_count": 5,
+          "original_sha256": "7b1fab1e4584d832451314fb1fabb9dd491ca8dccf7c9b4e1c386c04706a90ab",
+          "clean_sha256": "7b1fab1e4584d832451314fb1fabb9dd491ca8dccf7c9b4e1c386c04706a90ab",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/প্রথম পরিচ্ছেদ",
+          "chapter_order": 23,
+          "normalized_chars": 3284,
+          "chunk_count": 9,
+          "original_sha256": "fa1be0e163adc0d93b1d8290c960b279ffa51bbe63f5bb7088cc984a8cd9b3c1",
+          "clean_sha256": "fa1be0e163adc0d93b1d8290c960b279ffa51bbe63f5bb7088cc984a8cd9b3c1",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/দ্বিতীয় পরিচ্ছেদ",
+          "chapter_order": 24,
+          "normalized_chars": 4668,
+          "chunk_count": 12,
+          "original_sha256": "567e9501653c170cbcaceb51822eeed32a58aed67488a1858b06072cc9a11d56",
+          "clean_sha256": "567e9501653c170cbcaceb51822eeed32a58aed67488a1858b06072cc9a11d56",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/তৃতীয় পরিচ্ছেদ",
+          "chapter_order": 25,
+          "normalized_chars": 7928,
+          "chunk_count": 20,
+          "original_sha256": "25d21789c37398bc4f537eb2a6c62fdd77970b0efda78a9171a6f869e8656762",
+          "clean_sha256": "25d21789c37398bc4f537eb2a6c62fdd77970b0efda78a9171a6f869e8656762",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/চতুর্থ পরিচ্ছেদ",
+          "chapter_order": 26,
+          "normalized_chars": 3132,
+          "chunk_count": 8,
+          "original_sha256": "d89a74894623b4157bcab199784a2b6200d09d762e29115e2f9676741c40591f",
+          "clean_sha256": "d89a74894623b4157bcab199784a2b6200d09d762e29115e2f9676741c40591f",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/পঞ্চম পরিচ্ছেদ",
+          "chapter_order": 27,
+          "normalized_chars": 3718,
+          "chunk_count": 10,
+          "original_sha256": "861113cc52a56092d8168045993ab1992e718f43560a74d2d93cd8eb28e4e0c4",
+          "clean_sha256": "861113cc52a56092d8168045993ab1992e718f43560a74d2d93cd8eb28e4e0c4",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/ষষ্ঠ পরিচ্ছেদ",
+          "chapter_order": 28,
+          "normalized_chars": 4734,
+          "chunk_count": 12,
+          "original_sha256": "cec5ceda0a7bf23a9adea52441350721fbd5a5618796fbd3c0039141325e907f",
+          "clean_sha256": "cec5ceda0a7bf23a9adea52441350721fbd5a5618796fbd3c0039141325e907f",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/সপ্তম পরিচ্ছেদ",
+          "chapter_order": 29,
+          "normalized_chars": 3042,
+          "chunk_count": 8,
+          "original_sha256": "c227a5dd17876eb7497fe4dc7dbabb08ca988587aef129ff005c6165e77f7112",
+          "clean_sha256": "c227a5dd17876eb7497fe4dc7dbabb08ca988587aef129ff005c6165e77f7112",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/অষ্টম পরিচ্ছেদ",
+          "chapter_order": 30,
+          "normalized_chars": 7661,
+          "chunk_count": 20,
+          "original_sha256": "674dbb5f745c800f8b9d0b0d0090bc890e4f91158896ea05a717dba6cc8cfd37",
+          "clean_sha256": "674dbb5f745c800f8b9d0b0d0090bc890e4f91158896ea05a717dba6cc8cfd37",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/নবম পরিচ্ছেদ",
+          "chapter_order": 31,
+          "normalized_chars": 4059,
+          "chunk_count": 11,
+          "original_sha256": "541152e5605095cf2e85b22135560ac0df0b856c106b9808e3508562b92edce4",
+          "clean_sha256": "541152e5605095cf2e85b22135560ac0df0b856c106b9808e3508562b92edce4",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/দশম পরিচ্ছেদ",
+          "chapter_order": 32,
+          "normalized_chars": 5126,
+          "chunk_count": 13,
+          "original_sha256": "b7bc0b91700e8b6eb88b81d8d21ef6ecc958aaee098720a362c23a04ee5b8e48",
+          "clean_sha256": "b7bc0b91700e8b6eb88b81d8d21ef6ecc958aaee098720a362c23a04ee5b8e48",
+          "text_coverage": "PASS"
+        }
+      ]
+    },
+    "large_900_150": {
+      "chunk_size": 900,
+      "overlap": 150,
+      "chapters": 32,
+      "chunks": 214,
+      "shortest_chunk_chars": 158,
+      "longest_chunk_chars": 900,
+      "mean_chunk_chars": 835.51,
+      "coverage": "PASS",
+      "per_chapter": [
+        {
+          "chapter_id": "প্রথম খণ্ড/প্রথম পরিচ্ছেদ",
+          "chapter_order": 1,
+          "normalized_chars": 5271,
+          "chunk_count": 7,
+          "original_sha256": "b31c52fd929f6a34076b7eb4f5f33dee1986c8cf6270fa122cd453bdf34cdc4d",
+          "clean_sha256": "b31c52fd929f6a34076b7eb4f5f33dee1986c8cf6270fa122cd453bdf34cdc4d",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/দ্বিতীয় পরিচ্ছেদ",
+          "chapter_order": 2,
+          "normalized_chars": 4639,
+          "chunk_count": 7,
+          "original_sha256": "ea88be3764b80675f41c9534f7018cc2e0b32103370c8fbb45921b082c566fc2",
+          "clean_sha256": "ea88be3764b80675f41c9534f7018cc2e0b32103370c8fbb45921b082c566fc2",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/তৃতীয় পরিচ্ছেদ",
+          "chapter_order": 3,
+          "normalized_chars": 4279,
+          "chunk_count": 6,
+          "original_sha256": "25313a025ed7bcd7b2c44a607d9af6a826bca7781d8aa6f70b007a04a8db9b18",
+          "clean_sha256": "25313a025ed7bcd7b2c44a607d9af6a826bca7781d8aa6f70b007a04a8db9b18",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/চতুর্থ পরিচ্ছেদ",
+          "chapter_order": 4,
+          "normalized_chars": 3994,
+          "chunk_count": 6,
+          "original_sha256": "3b8b9cf715eae69ab02b053a4bcac5e36597517da893c08a8a01a8f78c57e4fc",
+          "clean_sha256": "3b8b9cf715eae69ab02b053a4bcac5e36597517da893c08a8a01a8f78c57e4fc",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/পঞ্চম পরিচ্ছেদ",
+          "chapter_order": 5,
+          "normalized_chars": 5690,
+          "chunk_count": 8,
+          "original_sha256": "3b544058c6ac49130c9eea019c978ff99786da191a286cfdcea079f3bf6262aa",
+          "clean_sha256": "3b544058c6ac49130c9eea019c978ff99786da191a286cfdcea079f3bf6262aa",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/ষষ্ঠ পরিচ্ছেদ",
+          "chapter_order": 6,
+          "normalized_chars": 7265,
+          "chunk_count": 10,
+          "original_sha256": "3d03f62eedfc0459a97b30b55aecc090b4281da84172186d440270ddcff6a24e",
+          "clean_sha256": "3d03f62eedfc0459a97b30b55aecc090b4281da84172186d440270ddcff6a24e",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/সপ্তম পরিচ্ছেদ",
+          "chapter_order": 7,
+          "normalized_chars": 1095,
+          "chunk_count": 2,
+          "original_sha256": "97c8858824cafc5292d5705f86af29d1dedeebf98bb9ac3bcf5361a00e2ac634",
+          "clean_sha256": "97c8858824cafc5292d5705f86af29d1dedeebf98bb9ac3bcf5361a00e2ac634",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/অষ্টম পরিচ্ছেদ",
+          "chapter_order": 8,
+          "normalized_chars": 10588,
+          "chunk_count": 15,
+          "original_sha256": "8c78093e777c987e0796b24ba87989ed8d7401f7336b5ea99e4cceb7536160d1",
+          "clean_sha256": "8c78093e777c987e0796b24ba87989ed8d7401f7336b5ea99e4cceb7536160d1",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "প্রথম খণ্ড/নবম পরিচ্ছেদ",
+          "chapter_order": 9,
+          "normalized_chars": 2815,
+          "chunk_count": 4,
+          "original_sha256": "b91b0513090827b1c024398f2560468fbb1e9347d559ddb656124c7eaef72ed7",
+          "clean_sha256": "b91b0513090827b1c024398f2560468fbb1e9347d559ddb656124c7eaef72ed7",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "দ্বিতীয় খণ্ড/প্রথম পরিচ্ছেদ",
+          "chapter_order": 10,
+          "normalized_chars": 4566,
+          "chunk_count": 6,
+          "original_sha256": "4c298a7f8627a4cc518630848a24b51b3ccaf474e6a9e5ed65fc9db780bb018e",
+          "clean_sha256": "4c298a7f8627a4cc518630848a24b51b3ccaf474e6a9e5ed65fc9db780bb018e",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "দ্বিতীয় খণ্ড/দ্বিতীয় পরিচ্ছেদ",
+          "chapter_order": 11,
+          "normalized_chars": 5007,
+          "chunk_count": 7,
+          "original_sha256": "3f388e053bc7b8c779fbfd1e5e51632cc172e3e277d699fd214ea1aae5604070",
+          "clean_sha256": "3f388e053bc7b8c779fbfd1e5e51632cc172e3e277d699fd214ea1aae5604070",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "দ্বিতীয় খণ্ড/তৃতীয় পরিচ্ছেদ",
+          "chapter_order": 12,
+          "normalized_chars": 3904,
+          "chunk_count": 6,
+          "original_sha256": "b37186b477e241c22a5427559176cb370b4ed31eec55eb30459931d953c54cc4",
+          "clean_sha256": "b37186b477e241c22a5427559176cb370b4ed31eec55eb30459931d953c54cc4",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "দ্বিতীয় খণ্ড/চতুর্থ পরিচ্ছেদ",
+          "chapter_order": 13,
+          "normalized_chars": 1413,
+          "chunk_count": 2,
+          "original_sha256": "8bb980fe35cc0fbe29ffb698e7eb64c57a98f30f33158b2f922cc1f5f0e88acc",
+          "clean_sha256": "8bb980fe35cc0fbe29ffb698e7eb64c57a98f30f33158b2f922cc1f5f0e88acc",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "দ্বিতীয় খণ্ড/পঞ্চম পরিচ্ছেদ",
+          "chapter_order": 14,
+          "normalized_chars": 3366,
+          "chunk_count": 5,
+          "original_sha256": "e160556f8a815c3de27f5851052e7412564665822266a037ca331583ddda5867",
+          "clean_sha256": "e160556f8a815c3de27f5851052e7412564665822266a037ca331583ddda5867",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "দ্বিতীয় খণ্ড/ষষ্ঠ পরিচ্ছেদ",
+          "chapter_order": 15,
+          "normalized_chars": 6290,
+          "chunk_count": 9,
+          "original_sha256": "c439d7712e7e076ce8fce53ed573d98ce20da48327fc4e536815393107b7f3cd",
+          "clean_sha256": "c439d7712e7e076ce8fce53ed573d98ce20da48327fc4e536815393107b7f3cd",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "তৃতীয় খণ্ড/প্রথম পরিচ্ছেদ",
+          "chapter_order": 16,
+          "normalized_chars": 7433,
+          "chunk_count": 10,
+          "original_sha256": "bfcb3df1b52aea8f619fa8a892ab244a107d35155d171d6cbb2b91642bb52986",
+          "clean_sha256": "bfcb3df1b52aea8f619fa8a892ab244a107d35155d171d6cbb2b91642bb52986",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "তৃতীয় খণ্ড/দ্বিতীয় পরিচ্ছেদ",
+          "chapter_order": 17,
+          "normalized_chars": 3644,
+          "chunk_count": 5,
+          "original_sha256": "6bf7a97bad38851872447adfd3d0aa3fd81fe3b08b973043f15dba5f7621ae03",
+          "clean_sha256": "6bf7a97bad38851872447adfd3d0aa3fd81fe3b08b973043f15dba5f7621ae03",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "তৃতীয় খণ্ড/তৃতীয় পরিচ্ছেদ",
+          "chapter_order": 18,
+          "normalized_chars": 6965,
+          "chunk_count": 10,
+          "original_sha256": "7858ea2bd8a6e73a8bcd786883dc88efde738d87dcb49451345ea002199788a6",
+          "clean_sha256": "7858ea2bd8a6e73a8bcd786883dc88efde738d87dcb49451345ea002199788a6",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "তৃতীয় খণ্ড/চতুর্থ পরিচ্ছেদ",
+          "chapter_order": 19,
+          "normalized_chars": 3075,
+          "chunk_count": 4,
+          "original_sha256": "d71f86ef76c2c2bd004cdf824b46c75a5d40cc77ffcf4a1f1333ce374507b470",
+          "clean_sha256": "d71f86ef76c2c2bd004cdf824b46c75a5d40cc77ffcf4a1f1333ce374507b470",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "তৃতীয় খণ্ড/পঞ্চম পরিচ্ছেদ",
+          "chapter_order": 20,
+          "normalized_chars": 4465,
+          "chunk_count": 6,
+          "original_sha256": "eeee668b98f57716e25d86ce884c4f4f6215d751ca4ef308350acf57b917b888",
+          "clean_sha256": "eeee668b98f57716e25d86ce884c4f4f6215d751ca4ef308350acf57b917b888",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "তৃতীয় খণ্ড/ষষ্ঠ পরিচ্ছেদ",
+          "chapter_order": 21,
+          "normalized_chars": 5838,
+          "chunk_count": 8,
+          "original_sha256": "bfb9325d577ccd3021884d8639a73cc1a9b7924b4059bee810259e56ad0842ab",
+          "clean_sha256": "bfb9325d577ccd3021884d8639a73cc1a9b7924b4059bee810259e56ad0842ab",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "তৃতীয় খণ্ড/সপ্তম পরিচ্ছেদ",
+          "chapter_order": 22,
+          "normalized_chars": 2083,
+          "chunk_count": 3,
+          "original_sha256": "7b1fab1e4584d832451314fb1fabb9dd491ca8dccf7c9b4e1c386c04706a90ab",
+          "clean_sha256": "7b1fab1e4584d832451314fb1fabb9dd491ca8dccf7c9b4e1c386c04706a90ab",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/প্রথম পরিচ্ছেদ",
+          "chapter_order": 23,
+          "normalized_chars": 3284,
+          "chunk_count": 5,
+          "original_sha256": "fa1be0e163adc0d93b1d8290c960b279ffa51bbe63f5bb7088cc984a8cd9b3c1",
+          "clean_sha256": "fa1be0e163adc0d93b1d8290c960b279ffa51bbe63f5bb7088cc984a8cd9b3c1",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/দ্বিতীয় পরিচ্ছেদ",
+          "chapter_order": 24,
+          "normalized_chars": 4668,
+          "chunk_count": 7,
+          "original_sha256": "567e9501653c170cbcaceb51822eeed32a58aed67488a1858b06072cc9a11d56",
+          "clean_sha256": "567e9501653c170cbcaceb51822eeed32a58aed67488a1858b06072cc9a11d56",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/তৃতীয় পরিচ্ছেদ",
+          "chapter_order": 25,
+          "normalized_chars": 7928,
+          "chunk_count": 11,
+          "original_sha256": "25d21789c37398bc4f537eb2a6c62fdd77970b0efda78a9171a6f869e8656762",
+          "clean_sha256": "25d21789c37398bc4f537eb2a6c62fdd77970b0efda78a9171a6f869e8656762",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/চতুর্থ পরিচ্ছেদ",
+          "chapter_order": 26,
+          "normalized_chars": 3132,
+          "chunk_count": 5,
+          "original_sha256": "d89a74894623b4157bcab199784a2b6200d09d762e29115e2f9676741c40591f",
+          "clean_sha256": "d89a74894623b4157bcab199784a2b6200d09d762e29115e2f9676741c40591f",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/পঞ্চম পরিচ্ছেদ",
+          "chapter_order": 27,
+          "normalized_chars": 3718,
+          "chunk_count": 5,
+          "original_sha256": "861113cc52a56092d8168045993ab1992e718f43560a74d2d93cd8eb28e4e0c4",
+          "clean_sha256": "861113cc52a56092d8168045993ab1992e718f43560a74d2d93cd8eb28e4e0c4",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/ষষ্ঠ পরিচ্ছেদ",
+          "chapter_order": 28,
+          "normalized_chars": 4734,
+          "chunk_count": 7,
+          "original_sha256": "cec5ceda0a7bf23a9adea52441350721fbd5a5618796fbd3c0039141325e907f",
+          "clean_sha256": "cec5ceda0a7bf23a9adea52441350721fbd5a5618796fbd3c0039141325e907f",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/সপ্তম পরিচ্ছেদ",
+          "chapter_order": 29,
+          "normalized_chars": 3042,
+          "chunk_count": 4,
+          "original_sha256": "c227a5dd17876eb7497fe4dc7dbabb08ca988587aef129ff005c6165e77f7112",
+          "clean_sha256": "c227a5dd17876eb7497fe4dc7dbabb08ca988587aef129ff005c6165e77f7112",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/অষ্টম পরিচ্ছেদ",
+          "chapter_order": 30,
+          "normalized_chars": 7661,
+          "chunk_count": 11,
+          "original_sha256": "674dbb5f745c800f8b9d0b0d0090bc890e4f91158896ea05a717dba6cc8cfd37",
+          "clean_sha256": "674dbb5f745c800f8b9d0b0d0090bc890e4f91158896ea05a717dba6cc8cfd37",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/নবম পরিচ্ছেদ",
+          "chapter_order": 31,
+          "normalized_chars": 4059,
+          "chunk_count": 6,
+          "original_sha256": "541152e5605095cf2e85b22135560ac0df0b856c106b9808e3508562b92edce4",
+          "clean_sha256": "541152e5605095cf2e85b22135560ac0df0b856c106b9808e3508562b92edce4",
+          "text_coverage": "PASS"
+        },
+        {
+          "chapter_id": "চতুর্থ খণ্ড/দশম পরিচ্ছেদ",
+          "chapter_order": 32,
+          "normalized_chars": 5126,
+          "chunk_count": 7,
+          "original_sha256": "b7bc0b91700e8b6eb88b81d8d21ef6ecc958aaee098720a362c23a04ee5b8e48",
+          "clean_sha256": "b7bc0b91700e8b6eb88b81d8d21ef6ecc958aaee098720a362c23a04ee5b8e48",
+          "text_coverage": "PASS"
+        }
+      ]
+    }
+  }
+}

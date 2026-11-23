@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "model": "intfloat/multilingual-e5-base",
+  "e5_prefix": {
+    "document": "passage: ",
+    "query": "query: "
+  },
+  "normalized": true,
+  "similarity": "cosine via normalized inner product",
+  "dimension": 768,
+  "vectors": 391,
+  "chapters": 32,
+  "chunk_source_sha256": "beb63441344cb2265006771eb3d2a2e8d9266abe805226154daab4dce29b47e4",
+  "index_sha256": "4e52b47d27fe002c51be1320552d72c7b62cccf2e22b6e3a116fb54e8e2b42b6",
+  "documents_sha256": "63ef04323ddfa0846d218e8a98ff6a64b1e43076ffcc59db91baf2befa511d73"
+}

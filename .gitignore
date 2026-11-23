@@ -1,0 +1,11 @@
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+# corpus locally regenerated from Wikisource; audit JSON can be committed
+/data/raw/*.json
+/data/raw/*.txt

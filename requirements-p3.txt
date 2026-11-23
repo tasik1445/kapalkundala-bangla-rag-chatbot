@@ -1,0 +1,7 @@
+# Install on top of P1/P2 requirements. Python 3.12 supported.
+# The CPU PyTorch dependency is installed transitively by sentence-transformers.
+numpy>=1.26,<3
+sentence-transformers>=3.0,<6
+faiss-cpu>=1.9,<2
+langchain-core>=0.3,<2
+langchain-community>=0.3,<1
